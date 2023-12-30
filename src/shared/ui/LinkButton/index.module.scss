@@ -1,0 +1,34 @@
+.light {
+	text-decoration: none;
+	white-space: nowrap;
+
+	padding: 10px 14px;
+	border-radius: 100px;
+	background: var(--Text-Night-Primary-1, #fff);
+	backdrop-filter: blur(15px);
+
+	color: #0b0b0b;
+
+	text-shadow: 0px 0px 30px rgba(102, 204, 255, 0.2);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 110%; /* 17.6px */
+}
+
+.dark {
+	text-decoration: none;
+
+	padding: 12px 24px;
+	border-radius: 14px;
+	opacity: 0.9;
+	background: rgba(255, 255, 255, 0.1);
+
+	color: #fff;
+
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 110%; /* 17.6px */
+	letter-spacing: 0.08px;
+}

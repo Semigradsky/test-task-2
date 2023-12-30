@@ -1,0 +1,30 @@
+:root {
+	font-family: 'Inter Variable', system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	min-height: 200vh;
+}
+
+.text-compressed {
+	letter-spacing: -0.64px;
+}
+
+.text-medium {
+	font-weight: 500;
+}
+
+.text-semi-bold {
+	font-weight: 600;
+}
+
+.text-gold {
+	color: #d7a830;
+}
+
+$bp-tablet: 834px;
+$bp-mobile: 393px;

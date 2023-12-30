@@ -1,0 +1,89 @@
+.container {
+	position: absolute;
+	top: 110vh;
+	right: 34px;
+
+	width: 100%;
+	max-width: 600px;
+	height: 349px;
+
+	color: white;
+	border-radius: 16px;
+	background:
+		url('./src/assets/big-party.png') no-repeat,
+		lightgray;
+	background-position-x: 75%;
+
+	box-shadow: 0px 4px 34px 0px rgba(0, 0, 0, 0.45);
+
+	@media (max-width: 1000px) {
+		right: 17px;
+	}
+
+	@media (max-width: 617px) {
+		right: 0;
+		border-radius: 0;
+	}
+}
+
+.closeIcon {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 15px;
+
+	> svg {
+		vertical-align: middle;
+	}
+}
+
+.content {
+	position: absolute;
+	right: 35px;
+	top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.black-friday {
+	font-size: 46px;
+	line-height: 110%;
+	font-weight: 500;
+	letter-spacing: -1.84px;
+	margin-bottom: 15px;
+}
+
+.discount {
+	font-size: 40px;
+	line-height: 110%;
+	font-weight: 500;
+	letter-spacing: -1.6px;
+	margin: 14px;
+	color: transparent;
+	background: linear-gradient(to right, #7d5317, #eddf95);
+	background-clip: text;
+}
+
+.clarification {
+	color: #6c6c70;
+	font-size: 16px;
+	line-height: 130%;
+	font-weight: 500;
+	letter-spacing: 0.08px;
+	margin-bottom: 40px;
+}
+
+.wide {
+	@media (max-width: 420px) {
+		display: none;
+	}
+}
+
+.compact {
+	display: none;
+
+	@media (max-width: 420px) {
+		display: block;
+	}
+}
